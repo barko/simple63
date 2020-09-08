@@ -10,6 +10,7 @@ Simple-8b to work with OCaml's 63-bit integers. While using `int64`
 integer types would have been possible, the addtional boxing required
 to manipulate `int64`'s make this option unappealing.
 
+Example usage:
 ```
 let in_lst = [1; 22; 333; 4444] in
 let in_seq = List.to_seq in_lst in

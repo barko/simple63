@@ -1,5 +1,5 @@
 opam-version: "2.0"
-synopsis: "integer compression and decompression module"
+synopsis: "Integer compression and decompression module."
 description:
   "Simple63 implements a module for compression and decompression of
    non-negative integer sequences. It is similar to the Simple-8b
