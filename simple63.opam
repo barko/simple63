@@ -13,6 +13,7 @@ bug-reports: "https://github.com/barko/simple63/issues"
 depends: [
   "dune" {> "1.5"}
   "ocaml" {>= "4.08.0"}
+  "ppx_inline_test"
 ]
 build: [
   ["dune" "subst"] {pinned}
