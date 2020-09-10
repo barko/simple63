@@ -11,9 +11,9 @@ homepage: "https://github.com/barko/simple63"
 doc: "https://barko.github.io/simple63/"
 bug-reports: "https://github.com/barko/simple63/issues"
 depends: [
-  "dune" {> "1.5"}
+  "dune" {> "2.6"}
   "ocaml" {>= "4.08.0"}
-  "ppx_inline_test"
+  "ppx_inline_test" {with-test}
 ]
 build: [
   ["dune" "subst"] {pinned}
