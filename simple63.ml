@@ -178,7 +178,7 @@ let tag_of_width =
       )
   ) in
   fun ~start_tag ~len ~width ->
-    if len <= 58 && start_tag <= 15 then
+    if len < max_width && start_tag < 16 then
       a.(start_tag).(len).(width - 1)
     else
       None
