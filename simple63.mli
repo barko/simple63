@@ -5,7 +5,7 @@
    that paper, Simple63 is a word-bounded, and (as the name suggests)
    is the result of adapting Simple-8b to work with OCaml's 63-bit
    integers. While using [int64] integer types would have been
-   possible, the addtional boxing required to manipulate [int64]'s
+   possible, the additional boxing required to manipulate [int64]'s
    make this option unappealing. *)
 
 val max_value : int

@@ -7,7 +7,7 @@ Moffat](https://scholar.google.com/scholar?q=Index+compression+using+64-bit+word
 Like Simple-8b technique described in that paper, Simple63 is a
 word-bounded, and (as the name suggests) is the result of adapting
 Simple-8b to work with OCaml's 63-bit integers. While using `int64`
-integer types would have been possible, the addtional boxing required
+integer types would have been possible, the additional boxing required
 to manipulate `int64`'s make this option unappealing.
 
 Example usage:
